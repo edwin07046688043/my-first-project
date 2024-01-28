@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+
+}
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+body{
+    max-width: 1440px;
+    min-width: 375px;
+    font-family: "figtre" "sanserif"; 
+    background-color: var(--yellow);
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+}
+
+
+.card{
+   border: 1px black;
+   width: 400px;
+   height: 600px;
+   background-color: var(--white);
+   border-radius: 10px;   
+
+}
+.card-image{
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit: cover;
+
+
+}
+.card-body{
+width: 100%;
+height: 310px;
+background-color: blue;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+
+}
+.card.image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.learning button{
+    background-color: var(--yellow);
+    padding: 10px 15px;
+    border-radius: 10px;
+    }
+    
+.foundation{
+    color: var(--black);
+}
+.foundation{
+    color: gray;
+}
+.avataer img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
